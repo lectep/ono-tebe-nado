@@ -9,21 +9,73 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
     </head>
-  <body>
-    <header>
-
+    <body>
+      <header class="header">
+      <ol class="header__links-list header__link">
+        <li class="header__links-list-item_no-bullit">главная</li>
+        <li class="header__links-list-item header__link_active">посмотреть лоты</li>
+        <li class="header__links-list-item header__link_active">об аукционе</li>
+      </ol>
+      <a href=#0 class="header__logo">
+        <img src="./images/logo-black.svg" alt="логотип сайта Оно тебе надо" class="header__logo-image">
+      </a>
+      <address class="adress header__address header__link">
+        <a href="tel:+99995555555" class="header__link_active">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="header__link_active">info@sobaka.ge</a>
+        <br>наб. Принсенграхт 263- 265, Амстердам
+      </address>
     </header>
-    <cover>
-
-    </cover>
-    <lots>
-
-    </lots>
-    <about>
-
-    </about>
+    <main>
+      <cover class="cover">
+        <h1 class="cover__title">
+          <span class="aligned-text">О</span><span class="letter-spacing-extended">н</span><span>о</span>
+          <br>
+          <span class="aligned-text_center">те</span><span class="letter-spacing-extended">б</span><span>е</span>
+          <br>
+          <span class="aligned-text_right letter-spacing-extended">н</span><span>ад</span><span class="no-letter-spacing">о</span>
+        </h1>
+        <cover__description class="cover__description">
+          <cover__description-text class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </cover__description-text>
+          <button name="bet-button" class="bet-button">
+            Сделать ставку
+          </button>
+        </cover__description>
+        <overlay class="overlay"></overlay>
+      </cover>
+      <lots class="lots">
+        <h1>
+          Лоты
+        </h1>
+        <ul class="lots__card-list">
+          <li>
+            <a href=#0 class="card-link">Фильм режиссёра, который бросил киношколу</a>
+            <article>
+              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+            </article>
+          </li>
+          <li>
+            <a href=#0 class="card-link">Книга, где описан один скучный день из жизни рекламного агента</a>
+            <article>
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </article>
+          </li>
+          <li>
+            <a href=#0 class="card-link">Картина, которую повторит даже 5-летний сын маминой подруги</a>
+            <article>
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+            </article>
+                  </li>
+        </ul>
+        <a href=#0 class="lots__look-more-link">посмотреть больше</a>
+      </lots>
+      <about>
+        
+      </about>
+    </main>
     <footer>
-      
+      ДОБАВИТЬ ВНУТРЕННИЕ ГИПЕРССЫЛКИ!
     </footer>
   </body>
 </html>
