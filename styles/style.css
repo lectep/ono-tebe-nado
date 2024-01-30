@@ -333,10 +333,10 @@ html {
 }
 
 .footer__social-list {
+    padding-left: 10px; /*Сделал отступ, чтобы совпало с макетом.*/
     display: flex;
-    justify-content: space-around;
-    width: 290px;
-    margin-left: 34px;
+    justify-content: space-evenly;
+    width: 100%;
     list-style-type: none;
 }
 
