@@ -289,10 +289,15 @@
 }
 
 .footer__menu-link {
-  letter-spacing: 0.18px;
   cursor: pointer;
   text-decoration: none;
   border-bottom: 1px solid black;
+}
+
+.footer__menu-link_active {
+  cursor: auto;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 .footer__social-list {
